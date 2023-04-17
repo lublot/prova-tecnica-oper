@@ -50,7 +50,7 @@ Esse documento te guiará no processo de desenvolvimento do desafio técnico pro
 - Conhecimento sobre as tecnologias solicitadas.
 
 ### Entrega da solução final
-- Você deverá enviar o link do repositório git contendo a sua solução para emerson.souza@operdata.com.br .
+- Você deverá enviar o link do repositório git contendo a sua solução para emerson.souza@operdata.com.br e em cópia para: selecao@operdata.com.br.
 - Se utilizar variáveis de ambiente no projeto, crie um arquivo nomeado ```.env.example``` e coloque os nomes das variáveis que está utilizando, por exemplo:
 
 ```
@@ -60,4 +60,4 @@ DB_PORT=<vazio>
 ```
 
 ### Considerações finais
-Se tiver alguma dúvida ou consideração sobre a prova técnica pode entrar em contato via e-mail emerson.souza@operdata.com.br, tentarei responder na medida do possível.
+Se tiver alguma dúvida ou consideração sobre a prova técnica pode entrar em contato via e-mail: emerson.souza@operdata.com.br, tentarei responder na medida do possível.
