@@ -11,14 +11,18 @@ Em breve resumo, o desafio proposto é a construção de um miniblog que conecta
 - A aplicação obterá as informações utilizando a [Article Search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview) do New York Times.
 - O miniblog deverá ter pelo menos duas páginas:
   - Home: 
-    - Esta é a página inicial da aplicação.
+    - É a página inicial da aplicação.
     - Esta página deve listar informações sobre os artigos obtidos da API.
       - Você pode definir quais informações são relevantes exibir na tela inicial e qual será o layout da exibição.
-    - Quando o usuário clicar em algum artigo da lista
+    - Quando o usuário clicar em algum artigo, deverá ser redirecionado para a página *Article* onde será possível ler o artigo completo.
   - Article:
-    - Essa página irá exibir o conteúdo completo da postagem que foi escolhida para o usuário.
-    - As informações principais que devem aparecer nessa página são: imagem de capa, o título, o conteúdo do artigo e o autor. 
-    Os metadados da postagem como data e afins ficam ao seu critério
+    - A página irá exibir o conteúdo completo do artigo que foi escolhida para o usuário.
+    - As informações principais que devem aparecer nessa página são: imagem de capa, o título, o conteúdo do artigo e o autor.
+    - Os metadados da postagem como data e afins ficam ao seu critério
+    - Nesta página haverá uma seção de comentários:
+      - Para comentar, o visitante precisa informar o e-mail e um texto com o comentário.
+      - Outros visitantes podem responder aos comentários.
+      - Outros visitantes podem curtir os comentários.
     
     
 - Cada página deverá ter sua própria rota no Next.js
@@ -31,7 +35,7 @@ Em breve resumo, o desafio proposto é a construção de um miniblog que conecta
 
 ### Considerações importantes
 
-#### Sobre a New York Times: Article Search API API
+#### Sobre a New York Times: Article Search API
 - A New York Times API tem um limite de 500 requisições por dia. Use-as com sabedoria.
 - As instruções para utilização da API podem ser encontradas nos seguintes endereços:
   - [New York Times: Article Search API - Por onde começar?](https://developer.nytimes.com/get-started)
