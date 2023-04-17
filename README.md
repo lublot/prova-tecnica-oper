@@ -13,6 +13,7 @@ Esse documento te guiará no processo de desenvolvimento do desafio técnico pro
     - É a página inicial da aplicação.
     - Esta página deve listar informações sobre os artigos obtidos da API.
       - Você pode definir quais informações são relevantes exibir na tela inicial e qual será o layout da exibição.
+      - Você pode definir quais artigos serão exibidos utilizando os filtros da API. Use a criatividade!
     - Quando o usuário clicar em algum artigo, deverá ser redirecionado para a página *Article* onde será possível ler o artigo completo.
   - Article:
     - A página irá exibir o conteúdo completo do artigo que foi escolhido pelo usuário. 
